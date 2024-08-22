@@ -44,6 +44,8 @@
 
 `stat Documents`
 
+![image](https://github.com/user-attachments/assets/f768f0e3-ba93-4735-b426-0ba74358a8b2)
+
 ## 03_03 - Navigating the file system
 
 `cd Documents/`
