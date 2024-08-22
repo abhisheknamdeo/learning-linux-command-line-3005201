@@ -170,17 +170,34 @@
 
 ## 03_10 - Modify file permissions
 
+![image](https://github.com/user-attachments/assets/b95ef6a6-985b-4559-9718-d6bdf5c24d6a)
+
+![image](https://github.com/user-attachments/assets/79c2a2da-7bcd-4d12-9f9e-7dffe699bad3)
+
+![image](https://github.com/user-attachments/assets/31d8e82a-07ec-48fa-b1b8-18cd69a51407)
+
+![image](https://github.com/user-attachments/assets/9a2a5873-d635-4600-9e51-519f0d7a200a)
+
+![image](https://github.com/user-attachments/assets/4974aa61-2a53-49db-97a1-2dd195703cab)
+
+![image](https://github.com/user-attachments/assets/dd5a133d-6efd-4de4-9bd5-926d16614c0c)
+
+![image](https://github.com/user-attachments/assets/67a4217b-2a85-438d-9e06-f6c0aff3ba05)
+
+
 `ls`
 
-`./test.sh`
+`./test.sh` - program 
 
-`ls -l test.sh`
+`ls -l test.sh` 
+
+![image](https://github.com/user-attachments/assets/af34dcf7-2ff0-429f-ba30-60bbd7613ca2)
 
 `stat test.sh`
 
 `chmod 644 test.sh` followed by Ctrl+C
 
-`chmod -x test.sh`
+`chmod -x test.sh` - only execute command 
 
 `./test.sh`
 
