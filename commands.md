@@ -120,32 +120,18 @@
 
 `cp poems.txt poems2.txt`
 
-`ls`
-
 `cp simple_data.txt departments/hr/employee\ info/`
 
-`ls departments/hr/employee\ info/`
- 
 `mv poems2.txt departments/marketing`
 
-`ls departments/marketing/`
-
-`ls`
-
-`mv departments/marketing/poems2.txt departments/marketing/literature.txt`
+`mv departments/marketing/poems2.txt departments/marketing/literature.txt` - moves and renames at the same time. 
 
 `ls departments/marketing/`
 
 `mv departments/marketing/literature.txt .`
 
-`ls`
+`mv *.txt departments/marketing/` - copies all text files from current directory to marketing folder
 
-`ls`
-
-Wild care copy commands- 
-
-`mv *.txt departments/marketing/`
-`ls departments/marketing/`
 `mv departments/marketing/* .`
 
 ![image](https://github.com/user-attachments/assets/05c68804-61fb-4c18-a718-12200984ce3b)
@@ -168,17 +154,15 @@ Wild care copy commands-
 
 `find ~/Documents -name "*d*"`
 
+![image](https://github.com/user-attachments/assets/84a34190-e1ed-4312-b6c7-41b43b67693f)
+
 ## 03_08 - Understand user roles and sudo
 
 `ls /root`
 
 `sudo ls /root`
 
-`sudo ls /root`
-
-`sudo -k`
-
-`sudo ls /root`
+`sudo -k` - Removed sudo access (logout)
 
 `sudo -s`
 
