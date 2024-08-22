@@ -44,9 +44,14 @@
 
 `stat Documents`
 
-![image](https://github.com/user-attachments/assets/f768f0e3-ba93-4735-b426-0ba74358a8b2)
+![image](https://github.com/user-attachments/assets/d740ec04-6abe-4173-940f-9332cadb97d3)
 
 ## 03_03 - Navigating the file system
+
+![image](https://github.com/user-attachments/assets/3c68d3f6-6107-4c6d-bbaf-50fd79fe37bf)
+
+![image](https://github.com/user-attachments/assets/1908e66e-fb9e-4c76-9890-23c33931d78d)
+
 
 `cd Documents/`
 
@@ -55,6 +60,8 @@
 `cd Exercise Files` (invalid command)
 
 `cd Exercise\ Files`
+
+![image](https://github.com/user-attachments/assets/b5de8012-ca70-4635-9b82-bbf9e8ad9655)
 
 `pwd`
 
@@ -75,6 +82,9 @@
 `cd -`
 
 `cd`
+
+![image](https://github.com/user-attachments/assets/a8ef88cd-4af0-4c21-8068-7974e23be27d)
+
 
 ## 03_04 - Exploring the output of the ls command
 
@@ -115,7 +125,7 @@
 `cp simple_data.txt departments/hr/employee\ info/`
 
 `ls departments/hr/employee\ info/`
-
+ 
 `mv poems2.txt departments/marketing`
 
 `ls departments/marketing/`
@@ -132,31 +142,19 @@
 
 `ls`
 
+Wild care copy commands- 
+
 `mv *.txt departments/marketing/`
-
 `ls departments/marketing/`
-
 `mv departments/marketing/* .`
 
-`ls`
-
-`rm literature.txt`
+![image](https://github.com/user-attachments/assets/05c68804-61fb-4c18-a718-12200984ce3b)
 
 `ls`
-
-`cp poems.txt poems3.txt`
-
-`cp poems.txt poems4.txt`
-
-`ls`
-
-`rm poems?.txt`
-
-`ls`
-
-`rm departments/customerservice/`
-
-`rm -r departments/customerservice/`
+`rm literature.txt` - Delete single file only 
+`rm poems?.txt` - deletes all files after poems and have another character after that
+`rm departments/customerservice/` - Error that customerservice is a directory
+`rm -r departments/customerservice/` - Will recursivly delete files 
 
 ## 03_07 - Find files from the command line
 
